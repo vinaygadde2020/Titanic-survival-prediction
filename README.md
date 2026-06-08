@@ -1,76 +1,79 @@
-# Titanic Survival Prediction 🚢
+🚢 Titanic Survival Prediction
+📌 Project Overview
 
-## 📌 Project Overview
-This project applies Machine Learning techniques to predict whether a passenger survived the Titanic disaster. The model is trained using historical passenger data such as age, gender, ticket class, fare, and family size.
+This project applies Machine Learning techniques to predict whether a passenger survived the Titanic disaster. The model is trained using passenger data such as age, gender, passenger class, fare, and family information.
 
----
+The goal is to build a classification model using real-world data and understand the complete Machine Learning workflow.
 
-## 🎯 Objective
-To develop a classification model that predicts survival of Titanic passengers using data-driven machine learning approaches.
+🎯 Objective
 
----
+To predict whether a Titanic passenger survived or not using Machine Learning classification models.
 
-## 📂 Dataset
-- Source: Titanic Dataset (Kaggle)
-- Contains passenger information like age, sex, class, fare, and survival status.
+📂 Dataset
+Source: Kaggle Titanic Dataset
+Features used:
+Pclass
+Sex
+Age
+SibSp
+Parch
+Fare
+Embarked
+🛠️ Technologies Used
+Python
+Pandas
+NumPy
+Matplotlib
+Seaborn
+Scikit-learn
+Google Colab
+🔄 Workflow
+Data Loading
+Data Cleaning (handling missing values)
+Exploratory Data Analysis (EDA)
+Feature Encoding
+Feature Selection
+Model Training
+Model Evaluation
+🤖 Machine Learning Models Used
+Logistic Regression
+Random Forest Classifier
+📊 Results
+Model	Accuracy
+Logistic Regression	79.9%
+Random Forest	81.0%
 
----
+✔ Best Performing Model: Random Forest Classifier
 
-## 🛠️ Technologies Used
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
-- Google Colab
+📌 Key Insights
+Gender had a strong impact on survival rate
+First-class passengers had higher survival chances
+Age and Fare were important factors in prediction
+📈 Model Evaluation
+Accuracy Score used for evaluation
+Confusion Matrix used to analyze predictions
+Classification Report used for precision, recall, and F1-score
+🚀 Future Improvements
+Hyperparameter tuning for better performance
+Try advanced models like XGBoost
+Improve feature engineering
+Deploy model using Flask or Streamlit
+📁 Project Structure
+Titanic-Survival-Prediction/
+│
+├── Titanic_Survival_Prediction.ipynb
+├── README.md
+🧠 Key Learnings
+Data preprocessing techniques
+Handling missing values
+Exploratory Data Analysis (EDA)
+Machine Learning model building
+Model evaluation techniques
+👨‍💻 Author
 
----
-
-## 🔄 Project Workflow
-- Data Collection
-- Data Cleaning & Handling Missing Values
-- Exploratory Data Analysis (EDA)
-- Feature Engineering
-- Model Building
-- Model Evaluation
-
----
-
-## 🤖 Machine Learning Models Used
-- Logistic Regression
-- Decision Tree Classifier
-- Random Forest Classifier
-
----
-
-## 📊 Results
-- Achieved accuracy of approximately **(add your accuracy here)%**
-- Random Forest model performed better compared to other models
-
----
-
-## 📈 Key Insights
-- Gender and passenger class significantly affected survival chances
-- First-class passengers had higher survival rates
-- Age and fare also influenced survival probability
-
----
-
-## 🚀 Future Improvements
-- Hyperparameter tuning for better performance
-- Try advanced models like XGBoost and Gradient Boosting
-- Improve feature engineering techniques
-
----
-
-## 🧠 Key Learnings
-- Data preprocessing and cleaning techniques
-- Handling missing values effectively
-- Exploratory Data Analysis (EDA)
-- Building and evaluating classification models
-
----
-
-## 👨‍💻 Author
 Vinay Chowdary
+Aspiring Data Analyst | Machine Learning Enthusiast
+
+⭐ Note
+
+This project is part of an internship mini project demonstrating practical Machine Learning skills using real-world datasets.
