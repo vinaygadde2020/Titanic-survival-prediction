@@ -86,12 +86,6 @@ To build a classification model that predicts whether a Titanic passenger surviv
 
 ---
 
-## 📁 Project Structure
-Titanic-Survival-Prediction/
-│
-├── Titanic_Survival_Prediction.ipynb
-├── README.md
-
 ---
 
 ## 🧠 Key Learnings
