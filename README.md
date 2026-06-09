@@ -1,27 +1,32 @@
-# 🚢 Titanic Survival Prediction
+# 🚢 Titanic Survival Prediction using Machine Learning
 
 ## 📌 Project Overview
-This project applies Machine Learning techniques to predict whether a passenger survived the Titanic disaster. The model is trained using passenger data such as age, gender, passenger class, fare, and family information.
+This project applies Machine Learning techniques to predict whether a passenger survived the Titanic disaster. The model is trained using passenger information such as age, gender, passenger class, fare, and family details.
 
-The goal is to understand a complete end-to-end Machine Learning workflow including data preprocessing, visualization, model building, and evaluation.
+The project demonstrates a complete end-to-end Machine Learning workflow including data preprocessing, exploratory data analysis, feature engineering, model training, and performance evaluation.
 
 ---
 
 ## 🎯 Objective
-To build a classification model that predicts whether a Titanic passenger survived or not.
+The main objective of this project is to build a classification model that predicts passenger survival based on historical Titanic dataset records.
 
 ---
 
 ## 📂 Dataset
-- Source: Kaggle Titanic Dataset  
-- Features used:
-  - Pclass
-  - Sex
-  - Age
-  - SibSp
-  - Parch
-  - Fare
-  - Embarked
+- **Dataset Source:** Kaggle Titanic Dataset
+- **Dataset Size:** 891 rows × 12 columns
+
+### Features Used
+- Pclass
+- Sex
+- Age
+- SibSp
+- Parch
+- Fare
+- Embarked
+
+### Target Variable
+- Survived
 
 ---
 
@@ -36,72 +41,109 @@ To build a classification model that predicts whether a Titanic passenger surviv
 
 ---
 
-## 🔄 Workflow
-- Data Loading
-- Data Cleaning (missing value handling)
-- Exploratory Data Analysis (EDA)
-- Feature Encoding
-- Feature Selection
-- Model Training
-- Model Evaluation
+## 🔄 Project Workflow
+1. Data Loading  
+2. Data Cleaning and Missing Value Handling  
+3. Exploratory Data Analysis (EDA)  
+4. Feature Encoding  
+5. Feature Selection  
+6. Train-Test Split  
+7. Machine Learning Model Training  
+8. Model Evaluation and Comparison  
+
+---
+
+## 📊 Exploratory Data Analysis
+Several visualizations were created to understand passenger survival patterns:
+
+- Survival Count
+- Survival by Gender
+- Survival by Passenger Class
+- Age Distribution
+- Fare Distribution
+- Correlation Heatmap
 
 ---
 
 ## 🤖 Machine Learning Models Used
-- Logistic Regression
-- Random Forest Classifier
+
+### 1. Logistic Regression
+Used as a baseline classification model for survival prediction.
+
+### 2. Random Forest Classifier
+Used to improve prediction performance using ensemble learning techniques.
 
 ---
 
-## 📊 Results
+## 📈 Results
 
 | Model | Accuracy |
 |------|----------|
-| Logistic Regression | 79.9% |
-| Random Forest | 81.0% |
+| Logistic Regression | 79.89% |
+| Random Forest Classifier | 82.68% |
 
-✔ Best Model: Random Forest Classifier
+✅ **Best Performing Model:** Random Forest Classifier
 
 ---
 
 ## 📌 Key Insights
-- Gender significantly affected survival chances
-- First-class passengers had higher survival rates
-- Age and Fare influenced survival probability
+- Female passengers had higher survival rates compared to male passengers
+- First-class passengers were more likely to survive
+- Fare and age influenced survival probability
+- Random Forest performed better than Logistic Regression
 
 ---
 
-## 📈 Model Evaluation
+## 📊 Model Evaluation
+The models were evaluated using:
+
 - Accuracy Score
 - Confusion Matrix
-- Classification Report (Precision, Recall, F1-score)
+- Classification Report
+  - Precision
+  - Recall
+  - F1-Score
 
 ---
 
 ## 🚀 Future Improvements
-- Hyperparameter tuning for better performance
-- Try advanced models like XGBoost
-- Improve feature engineering
-- Deploy using Flask or Streamlit
+Possible future improvements include:
 
----
+- Hyperparameter tuning
+- Advanced feature engineering
+- Cross-validation techniques
+- Using advanced algorithms such as XGBoost
+- Deployment using Flask or Streamlit
 
 ---
 
 ## 🧠 Key Learnings
+This project improved understanding of:
+
 - Data preprocessing techniques
 - Handling missing values
 - Exploratory Data Analysis (EDA)
+- Feature engineering
 - Machine Learning model building
-- Model evaluation
+- Model evaluation techniques
 
 ---
 
 ## 👨‍💻 Author
-Vinay Chowdary  
+**Siva Durga Vinay Chowdary**  
 Aspiring Data Analyst | Machine Learning Enthusiast
 
 ---
 
-## ⭐ Note
-This project is part of an internship mini project demonstrating practical Machine Learning skills using real-world dataset.
+## ⭐ Conclusion
+This project successfully demonstrated the complete Machine Learning workflow using the Titanic dataset. It provided valuable hands-on experience in predictive analytics, data visualization, and classification model development.
+
+---
+
+## 📎 Project Files
+- `Titanic_Survival_Prediction.ipynb`
+- `README.md`
+- `train.csv`
+- `Project_Report.pdf`
+
+---
